@@ -1,0 +1,37 @@
+.inputForm {
+  background-color: rgb(255, 255, 255);
+  border-radius: 9px;
+  box-sizing: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.modernInput {
+  width: 100%;
+  border: none;
+  display: block;
+  color: black;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.modernInput:focus {
+  outline: none;
+}
+
+.formBtn {
+  background-color: rgb(248, 178, 86);
+  display: inline-block;
+  border: none;
+  padding: 20px;
+  color: aliceblue;
+  border-radius: 8px;
+  border-color: none;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+}
